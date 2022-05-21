@@ -12,6 +12,6 @@ if __name__ == '__main__':
     pytest.main()
 
     # 生成测试报告
-    allure_report(report_path,html_path)
+    #allure_report(report_path,html_path)
 
     #send_mail(title="接口测试报告测试",content=html_path)
